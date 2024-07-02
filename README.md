@@ -3,6 +3,8 @@ Google Apps Script for Plain Text Lists
 This Google Apps Script converts a numbered list in your active Google Doc to a plain text list with indentation to represent the hierarchy.
 Functionality
 
+This script currently only processes the first encountered numbered list in the document. Any subsequent numbered lists in the document will be ignored and left unchanged.
+
 The script iterates through the elements of your document and identifies numbered list items. It then:
 
     Creates a counter object to track the numbering for each level of nesting.
